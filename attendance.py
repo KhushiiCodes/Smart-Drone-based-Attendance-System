@@ -12,6 +12,9 @@ conn = sqlite3.connect("students.db")
 cursor = conn.cursor()
 
 cam = cv2.VideoCapture(0)
+# esp32_url = "http://192.168.0.25//stream?quality=10" 
+
+# cam = cv2.VideoCapture(cam)
 
 marked_today = set()
 
